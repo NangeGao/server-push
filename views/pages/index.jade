@@ -1,0 +1,9 @@
+extends ../layout
+
+block content
+    table.table
+      each item,key in routes
+        tr
+            td #{item}
+            td 
+                a(href=`/${key}`) /#{key}

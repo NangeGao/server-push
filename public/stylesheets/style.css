@@ -1,0 +1,35 @@
+body {
+  padding: 50px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    border: 1px solid #ddd;
+}
+table td {
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    width: 80%;
+}
+table td button {
+    margin-right: 10px;
+}
+.btn {
+    padding: 8px 13px;
+    background: #0f88eb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-gray {
+    background: #ddd;
+    color: #aaa;
+}

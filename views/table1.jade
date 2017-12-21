@@ -1,0 +1,14 @@
+table
+    - var n = 0;
+    while n < 8
+        tr
+            td
+                | 一个运算时长不固定的数据计算 - 
+                span= ++n
+            td 
+                button.btn.execute(data-id=`${n}`)
+                    span 执行计算
+                button.btn.btn-gray.loading(style="display: none")
+                    span 执行中...
+                button.btn.result(style="display: none")
+                    span 结果下载

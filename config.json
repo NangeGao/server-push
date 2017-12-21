@@ -1,0 +1,9 @@
+{
+    "routes": {
+        "polling": "短轮询",
+        "long-polling": "长轮询",
+        "iframe": "iframe",
+        "sse": "Server-sent Events",
+        "websocket": "Web Socket"
+    }
+}
